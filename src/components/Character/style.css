@@ -1,0 +1,167 @@
+
+.card__container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px #333333;
+}
+
+.character-image {
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+    width: 40%;
+}
+
+.card-details__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.character-details__container, .location-details__container, .episode-details__container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-right: 15px;
+}
+
+.episode-details__container {
+    margin-bottom: 10px;
+}
+
+.status-species-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.life-status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.life-status--alive {
+    background-color: #008000;
+}
+
+.life-status--dead {
+    background-color: #d40c0c;
+}
+
+.life-status--unknown {
+    background-color: #989a98;
+}
+
+.status-species-details {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.character-name {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+
+.last-location-title, .first-episode-title {
+    font-size: 1.2rem;
+}
+
+
+.last-location-info, .first-episode-info {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/*Media queries*/
+
+@media screen and (max-width: 480px) {
+    
+    .card__container {
+        gap: 20px;
+        width: 90%;
+    }
+    
+    .card-details__container {
+        gap: 10px;
+    }
+    
+    .character-details__container, .location-details__container, .episode-details__container {
+        gap: 0px;
+    }
+    
+    .life-status {
+        width: 10px;
+        height: 10px;
+        margin-top: 5px;
+    }
+    
+    .status-species-details {
+        font-weight: 400;
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+    
+    .character-name {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    
+    .last-location-title, .first-episode-title {
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    
+    
+    .last-location-info, .first-episode-info {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width: 481px) {
+    
+    .card__container {
+        gap: 20px;
+        width: 360px;
+    }
+    
+    .card-details__container {
+        gap: 10px;
+    }
+    
+    .character-details__container, .location-details__container, .episode-details__container {
+        gap: 3px;
+    }
+    
+    .life-status {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .status-species-details {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    
+    .character-name {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    
+    .last-location-title, .first-episode-title {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    
+    
+    .last-location-info, .first-episode-info {
+        font-size: 1rem;
+    }
+}
