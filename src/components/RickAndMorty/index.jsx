@@ -52,7 +52,7 @@ function RickAndMorty () {
             ></Nav>
              <div className='pagination-buttons__container'>
                 <button className='previous-page__button' onClick={() => updatePage(page<=1 ? 1 : page-1)}>Previous Page</button>
-                <button className='next-page__button' onClick={() => updatePage(page>=42 ? 42 : page+1)}>Next Page</button>
+                <button className='next-page__button' onClick={() => updatePage(page>=41 ? 41 : page+1)}>Next Page</button>
             </div>
             {filteredCharacters.length !== 0 ? <ListCharacters characterList={filteredCharacters}></ListCharacters> : <h1 className='not-found-message'>Not results found matching your criteria</h1>}
         </section>
