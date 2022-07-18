@@ -77,6 +77,10 @@
         margin-top: 50px;
     }
 
+    .rick-morty__container {
+        height: 100vh;
+    }
+
     .pagination-buttons__container {
         margin-top: 20px;
     }
