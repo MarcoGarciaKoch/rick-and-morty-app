@@ -1,0 +1,115 @@
+
+.nav__container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: #5EC5C0;
+    background: -moz-linear-gradient(top, #5EC5C0 0%, #3D807D 47%, #5EC5C0 100%);
+    background: -webkit-linear-gradient(top, #5EC5C0 0%, #3D807D 47%, #5EC5C0 100%);
+    background: linear-gradient(to bottom, #5EC5C0 0%, #3D807D 47%, #5EC5C0 100%);
+    padding-bottom: 30px;
+}
+
+.nav-image {
+    width: 50%;
+    height: 370px;
+    margin-top: 30px;
+    background-image: url('https://preview.redd.it/o6cwlzg3exk41.png?auto=webp&s=eaad71f0c76522a309978bbd65b1a06902e56970');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #333333;
+    font-size: 1.8rem;
+    background-color: #ddd9d9;
+    padding-left: 10px;
+    margin: 25px 0px;
+}
+
+.nav-buttons__container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.nav-buttons__container button {
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 6px #333333;
+    background-color: #ddd9d9;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-buttons__container button:active {
+    transform: scale(0.95);
+    box-shadow: 2px 2px 8px #333333;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width: 480px) {
+    .nav-image {
+        width: 100%;
+        height: 110px;
+        margin-top: 0px;
+        background-size:contain;
+    }
+    
+    .search-input {
+        width: 60%;
+        height: 30px;
+        font-size: 0.8rem;
+        margin: 0px 0px 15px 0px;
+    }
+    
+    .nav-buttons__container {
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .nav-buttons__container button {
+        height: 30px;
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width: 481px) {
+    
+    .nav-image {
+        width: 100%;
+        height: 240px;
+        margin-top: 0px;
+        background-size:contain;
+    }
+    
+    .search-input {
+        width: 50%;
+        height: 40px;
+        font-size: 1rem;
+        margin: 0px 0px 30px 0px;
+    }
+    
+    .nav-buttons__container {
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .nav-buttons__container button {
+        height: 40px;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+}
