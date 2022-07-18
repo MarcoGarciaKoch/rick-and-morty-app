@@ -13,9 +13,8 @@
 }
 
 .nav-image {
-    width: 50%;
-    height: 370px;
-    margin-top: 30px;
+    width: 100%;
+    height: 292px;
     background-image: url('https://preview.redd.it/o6cwlzg3exk41.png?auto=webp&s=eaad71f0c76522a309978bbd65b1a06902e56970');
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,14 +22,14 @@
 
 .search-input {
     width: 50%;
-    height: 50px;
+    height: 40px;
     border: none;
     border-radius: 10px;
     box-shadow: 2px 2px 6px #333333;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     background-color: #ddd9d9;
     padding-left: 10px;
-    margin: 25px 0px;
+    margin: 25px 0px 25px 0px;
 }
 
 .nav-buttons__container {
@@ -41,13 +40,13 @@
 }
 
 .nav-buttons__container button {
-    width: 25%;
-    height: 50px;
+    width: 30%;
+    height: 40px;
     border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 6px #333333;
     background-color: #ddd9d9;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -80,9 +79,11 @@
     }
     
     .nav-buttons__container button {
+        width: 25%;
         height: 30px;
         font-size: 0.7rem;
-        font-weight: 400;
+        font-weight: 600;
+        padding: 0px 5px;
     }
 }
 
@@ -90,7 +91,7 @@
     
     .nav-image {
         width: 100%;
-        height: 240px;
+        height: 220px;
         margin-top: 0px;
         background-size:contain;
     }
@@ -104,12 +105,13 @@
     
     .nav-buttons__container {
         gap: 15px;
-        width: 100%;
+        width: 100vw;
     }
     
     .nav-buttons__container button {
+        width: 140px;
         height: 40px;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         font-weight: 600;
     }
 }

@@ -11,14 +11,14 @@
 }
 
 .pagination-buttons__container button {
-    width: 250px;
-    height: 50px;
+    width: 140px;
+    height: 35px;
     border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 6px #333333;
     background-color: #ddd9d9;
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .pagination-buttons__container button:active {
@@ -27,11 +27,11 @@
 }
 
 .previous-page__button {
-    margin-left: 120px;
+    margin-left: 60px;
 }
 
 .next-page__button {
-    margin-right: 90px;
+    margin-right: 45px;
 }
 
 .not-found-message {
