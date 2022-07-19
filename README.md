@@ -14,7 +14,7 @@ The application has the following main features:
 - The user can filter by `alive` characters that match searching criteria. 
 - The user can filter by `dead` characters that match searching criteria.
 - The user can show again all characters by clicking a specific button.
-- There is an infinte scroll integrated to load all the characters in a progressive manner. 
+- There are 2 pagination buttons to load the next or previous page of 20 characters. 
 
 
 # Repository Structure
